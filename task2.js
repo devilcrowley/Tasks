@@ -13,8 +13,8 @@ var value = 0;
 value = process.argv[2];
 
 if (value < -10000 || value > 10000) {
-	process.stdout.write("Превышение допустимого значения для рассчета");
+	console.log("Превышение допустимого значения для рассчета");
 } else {
-	process.stdout.write(fib(value));
+	console.log(fib(value));
 
 }
