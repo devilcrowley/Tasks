@@ -22,4 +22,3 @@ if (palindrome(valuepal) === true) {
 	console.log("NO");
 }
 
-// coded for GeekBrains
